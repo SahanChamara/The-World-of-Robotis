@@ -5,9 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <style>
+    /* class selector */
     .bodybackground{
         background-color: #a0d2eb;
     }
@@ -16,15 +19,26 @@
         font-size: xx-large;
         color: rgb(40, 47, 143);
     }
+
+    
+    /* element selector - All elements */ 
+    h1{
+        color: blue;
+    }
+
+    /* id selector */
+    #secondtopic{
+        font-size: large;
+    }
 </style>
 
 <body class="bodybackground" >
     <table border="0">
         <tr>
-            <td style="background-color: rgb(196, 196, 204);" colspan="4">
+            <td style="background-color: hsl(192, 4%, 74%);" colspan="4">
                 <center>
-                    <h1 style="color: red;">The World of Robotics</h1>
-                    <h4>Explore the latest adancements in robotics and how they are</h4>
+                    <h1>The World of Robotics</h1>
+                    <h4 id="secondtopic">Explore the latest adancements in robotics and how they are</h4>
                 </center>
             </td>
 
@@ -34,7 +48,7 @@
                 <h3 class="subtopics">
                     <b> Introduction to Robotics and its application</b>
                 </h3>
-                <h5>
+                <h5 class="paragraph1">
                     Robotics is an interdisciplinary field that combines engineering, computer science, and technology
                     to create machines that perform various tasks autonomously. These robots are often programmed to
                     perform specific tasks, such as assembling products in a factory, assisting surgeons, or even
@@ -80,7 +94,7 @@
             <h3 class="subtopics">
                 <b>Robots in Indusctry : Key Advancement in Industrial Automation</b>
             </h3>
-            <h5>
+            <h5 class="paragraph1">
                 Robots are revolutionizing industrial sectors by automating processes that previously required human
                     labor The most common types of industrial robots include robotic arms, which are widely used in the
                     automotive, electronics, and consumer goods industries. These machines can perform tasks with
@@ -129,7 +143,7 @@
             <h3 class="subtopics">
                 <b>Humanoid Robots: overview of Humanaoid Robotics and their capabilities</b>
             </h3>
-            <h5>
+            <h5 class="paragraph1">
                 Humanoid robots are robots designed to resemble and mimic human behavior, both in appearance and
                 functionality. These robots are capable of performing tasks traditionally reserved for humans, such
                 as assisting in healthcare, customer service, and education. The defining characteristic of humanoid
