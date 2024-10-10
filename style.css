@@ -1,3 +1,27 @@
 .paragraph1{
     font-size: larger;
 }
+/* class selector */
+.bodybackground{
+   background-image: url(background\ image.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: repeat;
+   background-attachment: fixed;
+}
+.subtopics{
+    font-style: oblique;
+    font-size: xx-large;
+    color: rgb(40, 47, 143);
+}
+
+
+/* element selector - All elements */ 
+h1{
+    color: rgb(255, 255, 255);
+}
+
+/* id selector */
+#secondtopic{
+    font-size: large;
+}
